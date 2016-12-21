@@ -1,0 +1,31 @@
+{
+    "name": "serdarozturk/oauth2-webrazzi",
+    "description": "Webrazzi ID OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serdar Ozturk",
+            "email": "serozdarturk@gmail.com",
+            "homepage": "https://github.com/serdarozturk"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "webrazzi",
+        "webrazzi-id"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "league/oauth2-client": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SerdarOzturk\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
