@@ -32,7 +32,7 @@ class Webrazzi extends AbstractProvider
      */
     public function getBaseAuthorizationUrl()
     {
-        return 'http://pasaport.webrazzi.dev/oauth/authorize';
+        return 'https://id.webrazzi.com/oauth/authorize';
     }
 
     /**
