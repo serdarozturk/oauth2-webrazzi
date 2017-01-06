@@ -16,8 +16,7 @@
         "authorization",
         "authorisation",
         "webrazzi",
-        "webrazzi-id",
-        "webrazzi-connect"
+        "webrazzi-id"
     ],
     "minimum-stability": "stable",
     "require": {
